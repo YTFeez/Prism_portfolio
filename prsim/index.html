@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="fr" data-theme="">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="PRSIM — Sites livrés en 2 semaines max. Gwentahl Guignard & Aronne Fanzini.">
+  <title>PRSIM — Agence de développement</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a href="#main" class="skip-link">Aller au contenu</a>
+  <header class="site-header" role="banner">
+    <nav class="nav" aria-label="Navigation principale">
+      <div class="nav__inner">
+        <a href="index.html" class="nav__logo"><span class="nav__logo-mark">◇</span> PRSIM</a>
+        <ul class="nav__links" role="list">
+          <li><a href="index.html" class="nav__link is-active" data-page="index.html">Accueil</a></li>
+          <li><a href="services.html" class="nav__link" data-page="services.html">Services</a></li>
+          <li><a href="equipe.html" class="nav__link" data-page="equipe.html">Équipe</a></li>
+          <li><a href="contact.html" class="nav__link nav__link--cta" data-page="contact.html">Contact</a></li>
+        </ul>
+        <div class="nav__controls">
+          <div class="theme-switcher theme-switcher--desktop" role="group" aria-label="Thème">
+            <button class="theme-btn theme-btn--violet is-active" data-theme="violet" aria-pressed="true"></button>
+            <button class="theme-btn theme-btn--cyan" data-theme="cyan" aria-pressed="false"></button>
+            <button class="theme-btn theme-btn--rose" data-theme="rose" aria-pressed="false"></button>
+          </div>
+          <button class="nav__burger" aria-label="Menu" aria-expanded="false" aria-controls="nav-mobile">
+            <span class="burger-bar"></span><span class="burger-bar"></span><span class="burger-bar"></span>
+          </button>
+        </div>
+      </div>
+      <div class="nav__mobile" id="nav-mobile" aria-hidden="true">
+        <a href="index.html" class="nav__link">Accueil</a>
+        <a href="services.html" class="nav__link">Services</a>
+        <a href="equipe.html" class="nav__link">Équipe</a>
+        <a href="contact.html" class="nav__link">Contact</a>
+        <div class="theme-switcher theme-switcher--mobile" role="group" aria-label="Thème">
+          <button class="theme-btn theme-btn--violet is-active" data-theme="violet"></button>
+          <button class="theme-btn theme-btn--cyan" data-theme="cyan"></button>
+          <button class="theme-btn theme-btn--rose" data-theme="rose"></button>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main id="main">
+
+    <section class="page-hero" aria-label="Accueil">
+      <div class="hero__grid-bg" aria-hidden="true"></div>
+      <div class="hero__orb hero__orb--1" aria-hidden="true"></div>
+      <div class="hero__orb hero__orb--2" aria-hidden="true"></div>
+      <div class="container">
+        <div class="hero__content">
+          <p class="hero__badge mono reveal">
+            <span class="hero__badge-dot" aria-hidden="true"></span>
+            Agence web · Gwentahl & Aronne · Sites en 2 semaines max
+          </p>
+          <h1 class="hero__title reveal">
+            Votre site.<br>
+            <em class="gradient-text">Prêt</em> à convaincre.
+          </h1>
+          <p class="hero__desc reveal">
+            PRSIM, c’est l’agence de Gwentahl Guignard et Aronne Fanzini — deux jeunes de 15 ans qui créent des sites
+            et applications beaux, clairs et efficaces. Votre site web est terminé en 2 semaines maximum.
+          </p>
+          <div class="hero__actions reveal">
+            <a href="contact.html" class="btn btn--primary">Demander un devis gratuit</a>
+            <a href="equipe.html" class="btn btn--ghost">Rencontrer l’équipe</a>
+          </div>
+          <div class="hero__stats reveal">
+            <div class="stat-card glass">
+              <strong>2 sem.</strong>
+              <span>Site web livré</span>
+            </div>
+            <div class="stat-card glass">
+              <strong>48 h</strong>
+              <span>Pour vous répondre</span>
+            </div>
+            <div class="stat-card glass">
+              <strong>2</strong>
+              <span>Personnes à votre écoute</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="why-title">
+      <div class="container">
+        <p class="section__label mono reveal">// Pourquoi PRSIM</p>
+        <h2 id="why-title" class="section__title reveal">Simple, rapide,<br><em class="gradient-text">pro</em>.</h2>
+        <p class="section__desc reveal">
+          Pas de mots compliqués : on vous explique tout clairement, on avance avec vous,
+          et on livre un résultat dont vous êtes fiers devant vos clients.
+        </p>
+        <div class="cards-grid">
+          <article class="card glass reveal">
+            <div class="card__icon">⚡</div>
+            <h3 class="card__title">2 semaines max</h3>
+            <p class="card__text">Pour un site web, on s’engage sur un délai court. Vous savez quand vous serez en ligne.</p>
+          </article>
+          <article class="card glass reveal">
+            <div class="card__icon">✦</div>
+            <h3 class="card__title">Un look qui marque</h3>
+            <p class="card__text">Design moderne et soigné — vos visiteurs retiennent votre marque.</p>
+          </article>
+          <article class="card glass reveal">
+            <div class="card__icon">🎯</div>
+            <h3 class="card__title">Pensé pour vos clients</h3>
+            <p class="card__text">Pages claires, contact facile, site fluide sur téléphone et ordinateur.</p>
+          </article>
+          <article class="card glass reveal">
+            <div class="card__icon">🤝</div>
+            <h3 class="card__title">Toujours joignables</h3>
+            <p class="card__text">Gwentahl et Aronne vous accompagnent du début à la mise en ligne.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="offer-title">
+      <div class="container">
+        <p class="section__label mono reveal">// Ce qu’on fait</p>
+        <h2 id="offer-title" class="section__title reveal">Nos spécialités</h2>
+        <div class="cards-grid">
+          <article class="card glass reveal"><h3 class="card__title">Sites vitrine</h3><p class="card__text">Présenter votre activité et un moyen simple de vous contacter.</p></article>
+          <article class="card glass reveal"><h3 class="card__title">Boutiques en ligne</h3><p class="card__text">Vendre vos produits avec un parcours d’achat fluide.</p></article>
+          <article class="card glass reveal"><h3 class="card__title">Applications</h3><p class="card__text">Outils sur mesure pour votre équipe ou vos clients.</p></article>
+          <article class="card glass reveal"><h3 class="card__title">Projets originaux</h3><p class="card__text">Jeux ou expériences pour vous démarquer (sur devis).</p></article>
+        </div>
+        <p class="reveal" style="margin-top:32px;text-align:center">
+          <a href="services.html" class="btn btn--ghost">Voir tous les services →</a>
+        </p>
+      </div>
+    </section>
+
+    <section class="container">
+      <div></div>
+      <div class="cta-band glass reveal">
+        <h2>Un projet en tête ?</h2>
+        <p>Devis gratuit, sans engagement. Décrivez votre idée — on revient vers vous sous 48 h.</p>
+        <a href="contact.html" class="btn btn--primary">Demander un devis gratuit</a>
+      </div>
+    </section>
+  </main>
+  <footer class="footer" role="contentinfo">
+    <div class="container footer__inner">
+      <a href="index.html" class="nav__logo"><span class="nav__logo-mark">◇</span> PRSIM</a>
+      <nav class="footer__links" aria-label="Pied de page">
+        <a href="services.html">Services</a>
+        <a href="equipe.html">Équipe</a>
+        <a href="contact.html">Contact</a>
+        <a href="mailto:Prism.contact.pro@proton.me">Prism.contact.pro@proton.me</a>
+      </nav>
+      <p class="footer__copy mono">© <span data-year></span> PRSIM. Tous droits réservés.</p>
+    </div>
+  </footer>
+  <script src="js/main.js"></script>
+</body>
+</html>
